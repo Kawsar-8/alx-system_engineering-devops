@@ -1,2 +1,2 @@
 #!/bin/bash
-not yet
+echo $PATH | tr ':' '\n' | wc -l
